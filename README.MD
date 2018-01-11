@@ -14,7 +14,7 @@
 ```
 brew cask install android-platform-tools
 brew install imagemagick
-node install
+npm install
 node app.js
 ```
 
