@@ -1,0 +1,17 @@
+{
+  "name": "nodehero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "android.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "baidu-aip-sdk": "^2.0.3",
+    "gm": "^1.23.1",
+    "opn": "^5.1.0"
+  }
+}
