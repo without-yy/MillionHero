@@ -12,6 +12,7 @@
   "dependencies": {
     "baidu-aip-sdk": "^2.0.3",
     "gm": "^1.23.1",
-    "opn": "^5.1.0"
+    "opn": "^5.1.0",
+    "wda-driver": "^1.0.2"
   }
 }

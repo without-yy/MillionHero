@@ -7,7 +7,8 @@ const cropImg = async () => {
       let w = value.width;
       // 参一参二 为裁剪后的图片尺寸大小
       // 参三参四 为对应要裁剪图片的 x,y 偏移量
-      img.crop(w - 140, 400, 70, 400).write(path.join(__dirname,'../images/output.png'), (err) => {
+      // s8西瓜视频参数  w - 140, 370, 70, 400
+      img.crop(w - 120, 250, 60, 180).write(path.join(__dirname,'../images/output.png'), (err) => {
         if (err) {
           reject(err);
         }
@@ -17,5 +18,6 @@ const cropImg = async () => {
   })
 
 };
+
 
 module.exports = cropImg;

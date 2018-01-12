@@ -1,4 +1,4 @@
-const getScreen = require('./util/android');
+const getScreen = require('./util/ios');
 const cropImg = require('./util/crop');
 const getText = require('./util/getText');
 const opn = require('opn');
