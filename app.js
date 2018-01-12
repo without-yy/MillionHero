@@ -18,12 +18,9 @@ const opn = require('opn');
         word = word.split('.')[1]
       }
       console.log(word);
-
-      opn(`https://www.baidu.com/s?wd=${word}`).then(()=>{
-        process.exit();
-      });
-
+      opn(`https://www.baidu.com/s?wd=${word}`);
       console.log(Date.now() - start);
+      process.exit();
     }else {
       throw new Error('识别错误,请检查 image目录下output.png是否正确');
     }
